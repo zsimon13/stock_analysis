@@ -10,7 +10,7 @@ The purpose of this project was to effeciently analyze multiple stocks using VBA
 
 ## Results
 ### Refactoring the Code
-In order to increase the efficiency of the analysis, I had to optimize how the loops were nested. This was achieved by first creating an array for the ticker symbols "ticker" and then declaring a variable "tickerindex", that could be used in the 3 arrays I would then create: tickerVolumes, tickerStartingPrices, and tickerEndingPrices.
+In order to increase the efficiency of the analysis, I had to optimize how the loops were nested. This was achieved by first creating an array for the ticker symbols "ticker" and then declaring a variable "tickerindex", that could be used in the 3 arrays I would then create: "tickerVolumes", "tickerStartingPrices", and "tickerEndingPrices".
 ### Refactored Code
 ![Refactored Code](https://user-images.githubusercontent.com/102814578/167235068-629d4347-02ee-45ed-b022-0e808144c495.png)
 ![Refactored Code 2](https://user-images.githubusercontent.com/102814578/167235079-07a228fa-5507-49d6-8e74-6d336025e002.png)
@@ -27,4 +27,8 @@ Using the "Tickerindex" variable allowed the code to assign the values of ticker
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/102814578/167235390-464e3a5e-02fe-4713-99d3-bce3853d5bc6.png)
 
 As you can see, the run time was at least 10 times faster after refactoring the code.
-
+## Summary
+### Advantages and Disadvantages of Refactoring
+The clear advantage of refactoring the code is usability. It is now scalable to larger datasets which in turn makes it more versatile which is a huge plus for wrtiting code. The faster analysis is also a great advantage becuase it will save time over all which can be used elsewhere. The only disadvantage I encountered was spending the time reafctoring it. There is always a possibility that the code may not be able to be refactored, in which case time would be wasted and an original copy of the code would need to be kept unaltered just in case. However, should it work, the time spent would be very worth it. 
+#### Pros and Cons Of Reactoring Original VBA Script
+The pros of reafctoring the origial VBA script would the learning. Finding a way to reafctor involves a high level knowlege of the syntax used in VBA. In this case research was needed in order to help determine how to create a more efficient loop. This knowledge can now be used in future VBA projects to write more concise, efficient code. The main con would be that you are tinkering something that already works. There is a philosphy of "if it is not broken, don't fix it." I personally do not abide by this philosophy.  
