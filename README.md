@@ -26,7 +26,7 @@ Using the "tickerindex" variable allowed the code to assign the values of "ticke
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/102814578/167235389-679b5247-0e9f-4a35-bc19-fe10c57dc1dc.png)
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/102814578/167235390-464e3a5e-02fe-4713-99d3-bce3853d5bc6.png)
 
-As you can see, the run time was at least 10 times faster for both years data sets after refactoring the code.
+As you can see, the run time was at least 10 times faster for the datasets of both yaers after refactoring the code.
 ## Summary
 ### Advantages and Disadvantages of Refactoring
 The major advantage of refactoring the code is usability. It is now scalable to larger datasets making it more versatile, which is a huge plus for wrtiting code. The faster analysis is also an advantage becuase it will save time over all which can be used on other work. The only disadvantage I encountered was spending the time reafctoring it. There is always a possibility that the code may not be able to be refactored, in which case time would be wasted and an original copy of the code would need to be kept unaltered just in case. However, should it work, the time spent would be very worth it. 
