@@ -16,6 +16,7 @@ In order to increase the efficiency of the analysis, I had to optimize how the l
 ![Refactored Code 2](https://user-images.githubusercontent.com/102814578/167235079-07a228fa-5507-49d6-8e74-6d336025e002.png)
 ### Original Code
 ![OG Code](https://user-images.githubusercontent.com/102814578/167235085-5ebcf555-b305-4d7a-8ac9-d21e25097ed1.png)
+
 Using the "Tickerindex" variable allowed the code to assign the values of tickerVolumes, tickerStartingPrices, and tickerEndingPrice to the individual ticker symbols basically simultaneouly as it ran through the data set. The nested loop in the original code would have to run through the data set in order to read the values before it assigned them to the proper cells. This would in theory make the analysis run faster
 ###Run Time for Analysis
 #### Original Code Run time
@@ -24,5 +25,6 @@ Using the "Tickerindex" variable allowed the code to assign the values of ticker
 #### Refactored Code Run Time
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/102814578/167235389-679b5247-0e9f-4a35-bc19-fe10c57dc1dc.png)
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/102814578/167235390-464e3a5e-02fe-4713-99d3-bce3853d5bc6.png)
+
 As you can see, the run time was almost 10 times as fast after refactoring the code.
 
