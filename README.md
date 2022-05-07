@@ -17,7 +17,7 @@ In order to increase the efficiency of the analysis, I had to optimize how the l
 ### Original Code
 ![OG Code](https://user-images.githubusercontent.com/102814578/167235085-5ebcf555-b305-4d7a-8ac9-d21e25097ed1.png)
 
-Using the "tickerindex" variable allowed the code to assign the values of "tickerVolumes", "tickerStartingPrices", and "tickerEndingPrice" to the individual ticker symbols basically simultaneous to runnning through the data set. The nested loop in the original code would have to loop through the data set in order to read the values, before it assigned them to the proper ticker symbols. This would in theory make the analysis run faster.
+Using the "tickerindex" variable allowed the code to assign the values of "tickerVolumes", "tickerStartingPrices", and "tickerEndingPrice" to the individual ticker symbols basically simultaneous to runnning through the data set. The nested loop in the original code would have to loop through the dataset in order to read the values first, before it assigned them to the proper ticker symbols. This would in theory make the analysis run faster.
 ### Run Time for Analysis
 #### Original Code Run time
 ![2017 Stock Analysis Run Time](https://user-images.githubusercontent.com/102814578/167235369-443678c6-813e-4417-abc6-19db7c02baba.png)
