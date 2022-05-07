@@ -26,5 +26,5 @@ Using the "Tickerindex" variable allowed the code to assign the values of ticker
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/102814578/167235389-679b5247-0e9f-4a35-bc19-fe10c57dc1dc.png)
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/102814578/167235390-464e3a5e-02fe-4713-99d3-bce3853d5bc6.png)
 
-As you can see, the run time was almost 10 times as fast after refactoring the code.
+As you can see, the run time was at least 10 times faster after refactoring the code.
 
