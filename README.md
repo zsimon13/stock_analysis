@@ -1,7 +1,7 @@
 # Green Stocks Analysis
 
 ## Project Overview
-Steve was looking at stocks for his parents to investment portfolio, and asked for my assitance in determining what stocks were worth investing in. In order to determine if the stock was worth while, I used the VBA in Microsoft excel to analyze the performance of 12 stocks. Sotck performance was gauged by the stock's: 
+Steve was looking at stocks for his parent's investment portfolio, and asked for my assitance in determining what stocks were worth investing in. In order to determine if the stock was worth while, I used the VBA in Microsoft excel to analyze the performance of 12 stocks. Sotck performance was gauged by the stock's: 
 - Daily volume  
 - Annual return
 
